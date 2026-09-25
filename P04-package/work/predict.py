@@ -20,7 +20,7 @@ def main():
 
     minutes = model.predict(order)[0]
 
-    print(f"PREDICTION: {minutes:.1f}")
+    print(f"PREDICTION: {minutes:.1f} ")
 
     return 0
 
